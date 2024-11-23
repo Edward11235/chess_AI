@@ -90,7 +90,7 @@ def train_model():
     # Training settings
     criterion = nn.MSELoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
-    epochs = 1000
+    epochs = 10
     batch_size = 32
 
     # Training loop
